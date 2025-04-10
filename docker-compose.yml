@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  client1:
+    build: frontend\clients\client1
+    container_name: client1
+    ports:
+      -"8001:80"
